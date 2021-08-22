@@ -37,32 +37,42 @@ Setting → Build, Execution, Deployment → Build Tools → Gradle
 
 ### Spring Boot와 JPA를 활용한 프로젝트
 
+#### [목표]
+
 - 회원 관리 : 쿠키 및 세션 활용
-- 게시판 : REST API를 활용한 CRUD 게시판
 - 일대다 맵핑 관계 : JPA 활용
 - 테스트 전략
 - Exception 전략
+- 게시판 : REST API를 활용한 CRUD 게시판
 - 실시간 트랜잭션 관리
 - Git Flow 적용
 
 <br>
 
-##### 직원(Employee)
+#### 멤버(Member)
 
-- employee_id
-- email
-- password
-- name
-- Company
+| 정보      | 타입   |
+| --------- | ------ |
+| member_id | Long   |
+| email     | String |
+| password  | String |
+| name      | String |
+| mbti      | Mbti   |
+
+<br>
+
+#### MBTI
+
+| 정보      | 타입   |
+| --------- | ------ |
+| mbti_id   | Long   |
+| mbti_name | String |
+| Member    | List   |
 
 <br>
 
-##### 회사(Company)
+## 회원가입 & 로그인
 
-- company_id
-- company_name
-- Member(List)
 
-<br>
 
 
