@@ -49,30 +49,3 @@ Setting → Build, Execution, Deployment → Build Tools → Gradle
 
 <br>
 
-#### 멤버(Member)
-
-| 정보      | 타입   |
-| --------- | ------ |
-| member_id | Long   |
-| email     | String |
-| password  | String |
-| name      | String |
-| mbti      | Mbti   |
-
-<br>
-
-#### MBTI
-
-| 정보      | 타입   |
-| --------- | ------ |
-| mbti_id   | Long   |
-| mbti_name | String |
-| Member    | List   |
-
-<br>
-
-## 회원가입 & 로그인
-
-
-
-
