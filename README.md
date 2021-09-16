@@ -39,11 +39,11 @@ Setting → Build, Execution, Deployment → Build Tools → Gradle
 
 #### [목표]
 
-- 회원 관리 : 쿠키 및 세션 활용
+- 회원 관리 : 세션 활용 (Google, Naver Login)
 - 일대다 맵핑 관계 : JPA 활용
 - 테스트 전략
 - Exception 전략
-- 게시판 : REST API를 활용한 CRUD 게시판
+- 게시판 : REST API를 활용한 CRUD
 - 실시간 트랜잭션 관리
 - Git Flow 적용
 
