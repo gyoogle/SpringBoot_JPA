@@ -7,6 +7,7 @@ branches:
     - main
 
 before_install:
+  - cd BookStore/
   - chmod +x gradlew
 
 # Travis CI 서버의 Home
