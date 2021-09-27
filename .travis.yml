@@ -6,6 +6,9 @@ branches:
   only:
     - main
 
+before_install:
+  chmod +x gradlew
+
 before_script:
   - cd BookStore/
 
