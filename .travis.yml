@@ -19,9 +19,9 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r BookStore
+  - zip -r BookStore *
   - mkdir -p deploy
-  - mv BookStroe.zip deploy/BookStore.zip
+  - mv BookStore.zip deploy/BookStore.zip
 
 deploy:
   - provider: s3
