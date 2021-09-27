@@ -6,11 +6,11 @@ branches:
   only:
     - main
 
-before_install:
-  chmod +x gradlew
-
 before_script:
   - cd BookStore/
+
+before_install:
+  chmod +x gradlew
 
 # Travis CI 서버의 Home
 cache:
