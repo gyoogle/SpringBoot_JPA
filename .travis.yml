@@ -19,6 +19,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
+  - cd BookStore/
   - mkdir -p before-deploy
   - cd scripts/*.sh before-deploy/
   - cp appspec.yml before-deploy/
