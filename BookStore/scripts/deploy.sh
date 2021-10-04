@@ -5,7 +5,7 @@ PROJECT_NAME=BookStore
 
 echo "> Build 파일 복사"
 
-cp $REPOSITORY/zip/*.jar &REPOSITORY/
+cp $REPOSITORY/zip/*.jar $REPOSITORY/
 
 CURRENT_PID=$(pgrep -fl BookStore | grep java | awk '{print $1}')
 
