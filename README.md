@@ -1,6 +1,24 @@
 # SpringBoot_JPA
 <br>
 
+![class_diagram_SpringBoot_JPA-Architecture Diagram drawio](https://user-images.githubusercontent.com/34904741/137332393-e0e3f9ac-9709-4c64-9d58-588b66b903ca.png)
+
+<br>
+
+![class_diagram_SpringBoot_JPA-Controller+Service drawio](https://user-images.githubusercontent.com/34904741/137332278-304271b6-5568-44f3-a427-267922bd7077.png)
+
+<br>
+
+## 기술 스택
+
+- Frontend : Mustache
+- Backend : Spring Boot, Spring Data JPA, MySQL
+- DevOps : AWS EC2, AWS RDS, Travis CI, CodeDeploy
+
+<br>
+
+<br>
+
 ## 초기 설정
 
 ##### 라이브러리 : spring web, jpa, h2, lombok, validation
@@ -32,20 +50,6 @@ Setting → Build, Execution, Deployment → Build Tools → Gradle
 - Run tests using : Gradle에서 IntelliJ IDEA로 변경
 
 <br>
-
-<br>
-
-### Spring Boot와 JPA를 활용한 프로젝트
-
-#### [목표]
-
-- 회원 관리 : 세션 활용 (Google, Naver Login)
-- 일대다 맵핑 관계 : JPA 활용
-- 테스트 전략
-- Exception 전략
-- 게시판 : REST API를 활용한 CRUD
-- 실시간 트랜잭션 관리
-- Git Flow 적용
 
 <br>
 
