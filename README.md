@@ -17,6 +17,10 @@
 
 <br>
 
+![그림1](https://user-images.githubusercontent.com/34904741/137586149-ea71d318-643e-4e22-8f41-a289c282ba5c.png)
+
+<br>
+
 <br>
 
 ## 초기 설정
