@@ -1,7 +1,7 @@
 # SpringBoot_JPA
 <br>
 
-![class_diagram_SpringBoot_JPA-Architecture Diagram drawio](https://user-images.githubusercontent.com/34904741/137332393-e0e3f9ac-9709-4c64-9d58-588b66b903ca.png)
+![class_diagram_SpringBoot_JPA-Architecture Diagram drawio](https://user-images.githubusercontent.com/34904741/137341750-9ebbfa34-43f5-42a5-a1a3-cbd7577677be.png)
 
 <br>
 
